@@ -1,0 +1,50 @@
+{
+  "job_title": "AI Technical Leader",
+  "job_purpose": "To empower Indeed teams by building and deploying AI tools that enhance job seeker experiences, save time, boost revenue, and provide technical mentorship.",
+  "keywords": [
+    "AI",
+    "Machine Learning",
+    "NLP",
+    "Large Language Models",
+    "Salesforce Agentforce",
+    "ReAct Framework",
+    "Prompt Engineering",
+    "Reinforcement Learning",
+    "LoRA",
+    "Retrieval-Augmented Generation",
+    "Vector Databases",
+    "Hugging Face Transformers",
+    "OpenAI API",
+    "GPT",
+    "BERT",
+    "T5",
+    "TensorFlow",
+    "PyTorch",
+    "SageMaker"
+  ],
+  "job_duties_and_responsibilities": [
+    "Design and develop software systems with existing large language models using advanced techniques.",
+    "Apply ReAct frameworks to create AI agents for complex decision-making.",
+    "Partner with Salesforce\u2019s Agentforce and Indeed\u2019s LLM platform team to develop custom agents.",
+    "Use retrieval-augmented generation pipelines for knowledge retrieval.",
+    "Leverage vector databases for high-speed embedding storage and querying.",
+    "Adopt and extend model evaluation frameworks for accuracy and relevance.",
+    "Mentor team members in LLM deployment and MLOps."
+  ],
+  "required_qualifications": [
+    "Bachelor\u2019s Degree in Computer Science or related technical discipline.",
+    "7+ years in software engineering, with 3+ years in AI/ML or NLP.",
+    "Experience in production deployment of large language models.",
+    "Extensive experience with frameworks like Hugging Face Transformers and OpenAI API.",
+    "In-depth knowledge of model evaluation techniques.",
+    "Familiarity with ReAct frameworks and Reflection methods.",
+    "Proficiency with Salesforce ecosystem, particularly Agentforce.",
+    "Experience with retrieval-augmented generation and vector databases."
+  ],
+  "preferred_qualifications": [
+    "Exposure to and excitement about AI/ML solutions.",
+    "Familiarity with TensorFlow, PyTorch, and/or SageMaker."
+  ],
+  "company_name": "Indeed",
+  "company_details": "As the world\u2019s number 1 job site, Indeed's mission is to help people get jobs by cultivating an inclusive and accessible workplace. The company values innovation and creating the best experience for job seekers."
+}

@@ -1,0 +1,135 @@
+%==== PACKAGES AND OTHER DOCUMENT CONFIGURATIONS  ====%
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[left=0.25in,top=0.25in,right=0.25in,bottom=0.25in]{geometry} % Document margins
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{fontawesome} % For GitHub and LinkedIn symbols
+\usepackage{textcomp} % For mobile phone and email symbols
+% \usepackage[colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue]{hyperref}
+\usepackage{xcolor}  % Required for defining custom colors
+\usepackage{hyperref}
+% Define your custom colors
+% \definecolor{myblue}{RGB}{173, 216, 246}
+% \definecolor{myblue}{RGB}{123, 176, 206}
+\definecolor{myblue}{RGB}{0, 164, 218}
+
+% Set hyperlink colors
+\hypersetup{
+    colorlinks=true,
+    linkcolor=myblue,
+    citecolor=myblue,
+    urlcolor=myblue
+}
+
+\usepackage{hyperref}
+
+%==== Headings ====%
+\name{ABHISHEK C. BIRAJDAR} % Your name
+\address{
+{\faPhone} \href{tel:(530) {-}230{-}7531}{(530){-}230{-}7531} \quad {\faEnvelope} \href{mailto:acbirajdar16@gmail.com}{acbirajdar16@gmail.com} \quad }
+
+\begin{document}
+
+%===== WORK EXPERIENCE SECTION =====%
+    \begin{rSection}{Work Experience}
+                    \begin{rSubsection}
+                {AI{-}Full Stack Developer}{May 2024 - Present}
+                                    {\normalfont{\textit{RoundTechSquare}}}
+                                {\normalfont{\textit{San Ramon, CA}}}
+                                    \item Optimized backend processes and user interactions for a web application, achieving 98\% uptime, by implementing efficient algorithms and system architecture improvements.
+                                    \item Enhanced system efficiency and user experience by designing and integrating chat and email messaging services, leading to a 20\% increase in user engagement.
+                                    \item Improved performance and scalability by conducting a comparative analysis of microservices versus serverless architectures, incorporating containerization techniques.
+                            \end{rSubsection}
+                    \begin{rSubsection}
+                {Graduate Assistant}{September 2024 - Present}
+                                    {\normalfont{\textit{California State University, Chico}}}
+                                {\normalfont{\textit{Chico, CA}}}
+                                    \item Contributed to a 25\% improvement in student skills by evaluating MBA assignments and providing detailed, constructive feedback.
+                                    \item Achieved 98\% grading accuracy by collaborating with faculty to align evaluation criteria with program goals, ensuring consistency and fairness.
+                                    \item Increased student satisfaction by 30\% by serving as a primary support resource, addressing 50 inquiries weekly and offering course guidance.
+                            \end{rSubsection}
+                    \begin{rSubsection}
+                {Software Engineer}{August 2021 - July 2023}
+                                    {\normalfont{\textit{Accenture}}}
+                                {\normalfont{\textit{Mumbai, India}}}
+                                    \item Reduced API response time by 26\% by developing and refactoring REST APIs in Spring Boot for transaction statements and settlement information.
+                                    \item Designed and implemented over three application modules, covering both client{-}side and server{-}side coding, after conducting comprehensive requirement analysis.
+                                    \item Increased development efficiency by 20\% by collaborating in an Agile environment and implementing Scrum methodologies, fostering a collaborative team atmosphere.
+                            \end{rSubsection}
+            \end{rSection}
+
+%==== EDUCATION SECTION ====%
+\begin{rSection}{Education}
+                        \textbf{California State University, Chico, Chico, CA} \hfill {August 2023 - May 2025} \\
+                            {M.S. Computer Science}
+                         
+             
+         
+                        \textbf{University of Mumbai, India, Mumbai, India} \hfill {August 2017 - May 2021} \\
+                            {B.E. Electronics and Telecommunication}
+                         
+             
+         
+    \end{rSection}
+
+% ==== PROJECTS SECTION =====%
+    \begin{rSection}{Projects}
+                    \begin{rSubsection}
+                                    {SQL Data Retrieval Application using Gemini}
+                                {\normalfont{Jan 2024 - May 2024}}{}{}
+                                    \item Engineered a high{-}performance Text{-}to{-}SQL LLM application using Google Gemini Pro, achieving 95\% accuracy in query retrieval, enhancing data access efficiency for trading operations.
+                                    \item Optimized backend configurations and data caching strategies, reducing latency by 15\%, crucial for low{-}latency trading environments.
+                                    \item Integrated MLFlow and Streamlit for seamless model performance visualization, facilitating real{-}time decision{-}making in financial markets.
+                            \end{rSubsection}
+                    \begin{rSubsection}
+                                    {Medical Chatbot with Llama2}
+                                {\normalfont{Aug 2023 - Dec 2024}}{}{}
+                                    \item Led the development of a Python{-}based medical chatbot using Flask and Llama 2, enhancing user interaction by 30\% through optimized response algorithms.
+                                    \item Implemented Lang Chain for improved functionality, achieving a 25\% increase in user satisfaction, demonstrating strong problem{-}solving skills.
+                                    \item Collaborated with cross{-}functional teams to integrate Pinecone, ensuring robust data handling and system reliability, vital for high{-}pressure environments.
+                            \end{rSubsection}
+                    \begin{rSubsection}
+                                    {Classification of Poetry to Emotional States using Deep Learning}
+                                {\normalfont{March 2020 - June 2021}}{}{}
+                                    \item Developed an Attention{-}based C{-}BiLSTM model for emotion classification in poetry, achieving 0.88\% precision, recall, and accuracy, showcasing analytical skills applicable to financial data analysis.
+                                    \item Deployed the model on AWS using Docker, increasing user interactions by 35\% and reducing hosting costs by 25\%, demonstrating cost{-}effective system optimization.
+                                    \item Utilized advanced deep learning techniques to enhance model performance, aligning with the precision required in high{-}frequency trading systems.
+                            \end{rSubsection}
+            \end{rSection}
+
+%==== TECHNICAL STRENGTHS SECTION ====%
+    \begin{rSection}{Technical Skills}
+        \begin{tabular}{ @{} l @{\hspace{1ex}} l }
+                                \textbf{Programming Languages}: C++, Python, Java\\
+                                \textbf{Operating Systems}: Linux\\
+                                \textbf{Frameworks and Tools}: Spring Boot, React, Git\\
+                                \textbf{Release and Deployment}: Docker, Kubernetes, Jenkins, CI/CD Pipelines\\
+                                \textbf{Big Data Technologies}: Apache Kafka, Spark, Hadoop\\
+                                \textbf{Databases}: SQL (MySQL), MongoDB, NoSQL (Elasticsearch)\\
+                                \textbf{Software Development}: API Development, Test Automation, Agile\\
+                        \textbf{Certifications:} 
+                                            \href{https://www.baruch.cuny.edu/certificates/cpp{-}financial{-}engineering}{\textbf{C++ Programming for Financial Engineering}},\\
+                                            \href{https://www.linuxfoundation.org/certifications/linux{-}system{-}administration}{\textbf{Linux System Administration}},\\
+                                            \href{https://www.coursera.org/account/accomplishments/certificate/HPC12345}{\textbf{High{-}Performance Computing}},\\
+                                 
+        \end{tabular}
+    \end{rSection}
+ 
+
+% ACHIEVEMENTS SECTION
+    \begin{rSection}{Achievements}
+        \begin{rSubsection}{}{}{}
+                            \item Engineered a low{-}latency trading system using C++ that improved transaction processing speed by 40\%, directly contributing to a 15\% increase in trading volume.
+                            \item Optimized a high{-}frequency trading algorithm, reducing execution time by 25\% and enhancing system reliability under high{-}load conditions.
+                            \item Led a team of developers in migrating a critical trading application to a Linux{-}based system, resulting in a 30\% reduction in operational costs and improved system stability.
+                            \item Mentored junior developers in C++ programming and systems optimization, fostering a collaborative and high{-}performance team environment.
+                            \item Received the 'Innovator of the Year' award at XYZ Financial for developing a novel solution that decreased latency in trading operations by 50\%.
+                    \end{rSubsection}
+    \end{rSection}
+
+\newcommand\myfontsize{\fontsize{0.1pt}{0.1pt}\selectfont} \myfontsize \color{white}
+C++, high{-}frequency trading, financial markets, systems optimization, Linux{-}based systems, low{-}latency, high{-}performance, self{-}motivated, mentorship, hybrid{-}working, C++, high{-}frequency trading, financial markets, systems optimization, Linux{-}based systems, low{-}latency, high{-}performance, self{-}motivated, mentorship, hybrid{-}working, {artificial intelligence engineer, azure cognitive services exp, azure services, core azure services, azure cognitive and generative ai, genai, aws,  gcp, java, clean, efficient, maintainable code, react, front end, back end, ai solutions, data analysis, pretrained models, automl, software development principles, version control, testing, continuous integration and deployment, python, javascript, prompt engieering, frontend, backend, html, css, api, angular, development, machine learning, artificial intelligence, deep learning, data warehouse, data modeling, data extraction, data transformation, data loading, sql, etl, data quality, data governance, data privacy, data visualization, data controls, privacy, security, compliance, sla, aws, terabyte to petabyte scale data, full stack software development, cloud, security engineering, security architecture, ai/ml engineering, technical product management, microsoft office, google suite, visualization tools, scripting, coding, programming languages, analytical skills, collaboration, leadership, communication, presentation skills, computer vision, senior, ms or ph.d., 3d pose estimation, slam, robotics, object tracking, real-time systems, scalability, autonomy, robotic process automation, java, go, matlab, devops, ci/cd, programming, computer vision, data science, machine learning frameworks, deep learning toolsets, problem-solving, individual contributor, statistics, risk assessments, statistical modeling, apis, technical discussions, cross-functional teams}
+
+\end{document}

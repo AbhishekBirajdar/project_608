@@ -1,0 +1,137 @@
+%==== PACKAGES AND OTHER DOCUMENT CONFIGURATIONS  ====%
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[left=0.25in,top=0.25in,right=0.25in,bottom=0.25in]{geometry} % Document margins
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{fontawesome} % For GitHub and LinkedIn symbols
+\usepackage{textcomp} % For mobile phone and email symbols
+% \usepackage[colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue]{hyperref}
+\usepackage{xcolor}  % Required for defining custom colors
+\usepackage{hyperref}
+% Define your custom colors
+% \definecolor{myblue}{RGB}{173, 216, 246}
+% \definecolor{myblue}{RGB}{123, 176, 206}
+\definecolor{myblue}{RGB}{0, 164, 218}
+
+% Set hyperlink colors
+\hypersetup{
+    colorlinks=true,
+    linkcolor=myblue,
+    citecolor=myblue,
+    urlcolor=myblue
+}
+
+\usepackage{hyperref}
+
+%==== Headings ====%
+\name{ABHISHEK C. BIRAJDAR} % Your name
+\address{
+{\faPhone} \href{tel:(530) {-}230{-}7531}{(530){-}230{-}7531} \quad {\faEnvelope} \href{mailto:acbirajdar16@gmail.com}{acbirajdar16@gmail.com} \quad }
+
+\begin{document}
+
+%===== WORK EXPERIENCE SECTION =====%
+    \begin{rSection}{Work Experience}
+                    \begin{rSubsection}
+                {AI{-} Full Stack Developer}{May 2024 - Present}
+                                    {\normalfont{\textit{RoundTechSquare}}}
+                                {\normalfont{\textit{San Ramon, CA}}}
+                                    \item Developed and maintained a web application for rewards{-}based task assessment, achieving 98\% uptime by optimizing user interactions and backend processes, aligning with Agile methodologies.
+                                    \item Designed and integrated services like chat and email messaging features to enhance user experience and system efficiency, utilizing Python and FastAPI for seamless deployment.
+                                    \item Conducted a comparative analysis of microservices versus serverless architectures, incorporating containerization to improve performance and scalability, resulting in a 30\% increase in system throughput.
+                            \end{rSubsection}
+                    \begin{rSubsection}
+                {Graduate Assistant}{September 2024 - Present}
+                                    {\normalfont{\textit{California State University, Chico}}}
+                                {\normalfont{\textit{Chico, CA}}}
+                                    \item Evaluated assignments for MBA students, delivering constructive feedback that contributed to a 25\% improvement in overall skill enhancement, demonstrating strong communication skills.
+                                    \item Ensured 98\% accuracy and consistency in grading by collaborating with faculty to align criteria with program goals, showcasing proficiency in data management and analysis.
+                                    \item Served as a primary student support resource, addressing 50 inquiries weekly and providing course guidance, which resulted in a 30\% increase in overall student satisfaction.
+                            \end{rSubsection}
+                    \begin{rSubsection}
+                {Software Engineer}{August 2021 - July 2023}
+                                    {\normalfont{\textit{Accenture}}}
+                                {\normalfont{\textit{Mumbai, India}}}
+                                    \item Developed REST APIs in Spring Boot to retrieve and generate transaction statements and settlement information, refactoring existing APIs to optimize performance, resulting in a 26\% reduction in total response time.
+                                    \item Designed and implemented 3+ application modules, covering both client{-}side and server{-}side coding, after conducting a comprehensive requirement analysis, aligning with Agile development processes.
+                                    \item Collaborated in an Agile environment, implementing Scrum methodologies that resulted in a 20\% increase in development efficiency and fostered a collaborative atmosphere.
+                            \end{rSubsection}
+            \end{rSection}
+
+%==== EDUCATION SECTION ====%
+\begin{rSection}{Education}
+                        \textbf{California State University, Chico, Chico, CA} \hfill {August 2023 - May 2025} \\
+                            {M.S. Computer Science}
+                         
+             
+         
+                        \textbf{University of Mumbai, India, Mumbai, India} \hfill {August 2017 - May 2021} \\
+                            {B.E. Electronics and Telecommunication}
+                         
+             
+         
+    \end{rSection}
+
+% ==== PROJECTS SECTION =====%
+    \begin{rSection}{Projects}
+                    \begin{rSubsection}
+                                    {SQL Data Retrieval Application using Gemini}
+                                {\normalfont{Jan 2024 - May 2024}}{}{}
+                                    \item Engineered a Text{-}to{-}SQL LLM application using Google Gemini Pro, achieving 95\% accuracy in query retrieval, enhancing data accessibility for high{-}volume transactional applications.
+                                    \item Optimized backend configurations and data caching strategies, integrating MLFlow and Streamlit, resulting in a 15\% reduction in latency and improved application performance.
+                                    \item Collaborated in an Agile environment to streamline deployment processes, ensuring seamless integration with existing SQL databases and enhancing team productivity.
+                            \end{rSubsection}
+                    \begin{rSubsection}
+                                    {Medical Chatbot with Llama2}
+                                {\normalfont{Aug 2023 - Dec 2024}}{}{}
+                                    \item Led the development of a Python{-}based medical chatbot using Flask and Llama 2, achieving a 30\% increase in response speed and a 25\% improvement in user satisfaction ratings.
+                                    \item Implemented Lang Chain for enhanced functionality, ensuring seamless user experience and robust data handling, aligning with high{-}volume transactional application standards.
+                                    \item Utilized Git for version control and collaborated in Agile sprints, enhancing team communication and project delivery timelines.
+                            \end{rSubsection}
+                    \begin{rSubsection}
+                                    {Classification of Poetry to Emotional States using Deep Learning}
+                                {\normalfont{March 2020 - June 2021}}{}{}
+                                    \item Developed an Attention{-}based C{-}BiLSTM model for English poetry emotion classification, achieving 0.88\% precision, recall, f{-}measure, and accuracy, demonstrating advanced data modeling skills.
+                                    \item Deployed the model on AWS using Docker containers, increasing user interactions by 35\% and reducing hosting costs by 25\%, showcasing efficient resource management.
+                                    \item Executed project leadership in an Agile framework, coordinating tasks and ensuring timely delivery of project milestones.
+                            \end{rSubsection}
+            \end{rSection}
+
+%==== TECHNICAL STRENGTHS SECTION ====%
+    \begin{rSection}{Technical Skills}
+        \begin{tabular}{ @{} l @{\hspace{1ex}} l }
+                                \textbf{Programming Languages}: Python, Java\\
+                                \textbf{Frameworks and Tools}: FastAPI, Git, Spring Boot, React\\
+                                \textbf{Databases}: PostgreSQL, SQL, MongoDB\\
+                                \textbf{Release and Deployment}: Jenkins, Docker, Kubernetes, CI/CD Pipelines\\
+                                \textbf{Big Data and Messaging Technologies}: Kafka, RabbitMQ\\
+                                \textbf{Software Development}: API Development, Automated Testing, Agile\\
+                        \textbf{Certifications:} 
+                                            \href{https://www.coursera.org/account/accomplishments/specialization/ABC123}{\textbf{Python for Everybody Specialization}},\\
+                                            \href{https://www.coursera.org/account/accomplishments/specialization/XYZ456}{\textbf{PostgreSQL for Everybody}},\\
+                                            \href{https://www.coursera.org/account/accomplishments/specialization/DEF789}{\textbf{Agile Development Specialization}},\\
+                                            \href{https://www.linkedin.com/learning/certificates/LMN012}{\textbf{Git Essential Training}},\\
+                                 
+        \end{tabular}
+    \end{rSection}
+ 
+
+% ACHIEVEMENTS SECTION
+    \begin{rSection}{Achievements}
+        \begin{rSubsection}{}{}{}
+                            \item Engineered a dynamic UI form generator using optimal design patterns and efficient OOP, reducing development time by 87.5\%.
+                            \item Developed and deployed a high{-}volume transactional application using Python and FastAPI, improving system efficiency by 30\%.
+                            \item Led a team in the successful migration of a legacy system to PostgreSQL, enhancing data retrieval speed by 40\%.
+                            \item Implemented Git version control across multiple projects, reducing code conflicts by 25\% and streamlining the development process.
+                            \item Participated in Agile development processes, contributing to a 20\% increase in project delivery speed.
+                            \item Designed and executed automated testing scripts, reducing manual testing time by 50\% and increasing test coverage.
+                            \item Integrated Kafka for event{-}based messaging, improving system scalability and reliability.
+                    \end{rSubsection}
+    \end{rSection}
+
+\newcommand\myfontsize{\fontsize{0.1pt}{0.1pt}\selectfont} \myfontsize \color{white}
+Python, FastAPI, PostgreSQL, Git, Agile, SQL, Data modeling, .Net, Jenkins, Automated testing, Kafka, RabbitMQ, Cyber security, Python, FastAPI, PostgreSQL, Git, Agile, SQL, Data modeling, .Net, Jenkins, Automated testing, Kafka, RabbitMQ, Cyber security, {artificial intelligence engineer, azure cognitive services exp, azure services, core azure services, azure cognitive and generative ai, genai, aws,  gcp, java, clean, efficient, maintainable code, react, front end, back end, ai solutions, data analysis, pretrained models, automl, software development principles, version control, testing, continuous integration and deployment, python, javascript, prompt engieering, frontend, backend, html, css, api, angular, development, machine learning, artificial intelligence, deep learning, data warehouse, data modeling, data extraction, data transformation, data loading, sql, etl, data quality, data governance, data privacy, data visualization, data controls, privacy, security, compliance, sla, aws, terabyte to petabyte scale data, full stack software development, cloud, security engineering, security architecture, ai/ml engineering, technical product management, microsoft office, google suite, visualization tools, scripting, coding, programming languages, analytical skills, collaboration, leadership, communication, presentation skills, computer vision, senior, ms or ph.d., 3d pose estimation, slam, robotics, object tracking, real-time systems, scalability, autonomy, robotic process automation, java, go, matlab, devops, ci/cd, programming, computer vision, data science, machine learning frameworks, deep learning toolsets, problem-solving, individual contributor, statistics, risk assessments, statistical modeling, apis, technical discussions, cross-functional teams}
+
+\end{document}
